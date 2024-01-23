@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body{
+    background: linear-gradient(to top, #3498db, #e74c3c, #2ecc71, #eaf608);
+}
+
+.img_sec{
+    display: flex;
+    align-items: start;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_r1 {
+    width: 350px;
+    height: fit-content;
+    border: 1.8px solid black;
+    padding: 4px;
+    margin: 10px;
+    
+}
+
+.btn_box_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn_box {
+    border: 1px solid black;
+    padding: 4px;
+
+}
+.btn_box button {
+    width: 50px;
+}
+.ft_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main .card_r1 span {
+    background-color: aqua;
+    padding: 1px;
+    color: #000;
+    font-size: 20px;
+}
+
+nav .pagination {
+    margin-left: 470px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card_r1 {
+    background: #000;
+    border-radius: 10px;
+    color: #eee;
+    overflow: hidden;
+}
+
+#loding {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: transparent url("https://media.tenor.com/7lf54pwUyh0AAAAj/loading.gif")
+    no-repeat center
+    ;
+    z-index: 999;
+    background-size: 500px;
+    
+}
